@@ -39,3 +39,20 @@ Repo contains two folders backend and frontend
 
 <p>There is also <code><App/></code> to fetch users from github</p>
 <p>Added two test cases for <code><App/></code></p>
+
+
+<h2>Explanation of your migration approach from Rails to NestJS.</h2>
+
+<b>Controller Mapping</b>
+<p>Use various decorators[like @post, @get] to hadle of HTTP requests</p>
+<p>Add get method to send cachedData when page is refreshed or new loded</p>
+
+<b>Services</b>
+<p>API url settings are here</p>
+<p>services handles CacheManager and cachedData</p>
+
+<b>Resposnse</b>
+<p>{data:{},message:{},error:0|1}</p>
+
+<b>Validation[Data Transfer Object (DTO)]</b>
+<p>Validate request input like min or max length</p>
