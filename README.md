@@ -5,7 +5,9 @@ Repo contains two folders backend and frontend
 :: In backend :: 
 1) npm install
 2) npm start
+    <br/>
     Backend must run on port 3000.
+    <br/>
     Url setting :: http://localhost:3000/
 3) Now run test if you want
     use : npm test
@@ -35,5 +37,5 @@ Repo contains two folders backend and frontend
 <img src="https://i.imgur.com/kNHBcZ6.png" width="900" height="400" />
 <img src="https://i.imgur.com/eQSexW0.png" width="900" height="400" /></p>
 
-<p>There is also <App/> to fetch users from github</p>
-<p>Added two test cases for <App></p>
+<p>There is also <code><App/></code> to fetch users from github</p>
+<p>Added two test cases for <code><App/></code></p>
